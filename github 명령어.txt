@@ -1,0 +1,13 @@
+github 
+git clone "https://github.com/DoyouknowUdong"
+cd ./chat_bot/
+git status  
+git add ./*
+git config --global user.email "tongnamuu@naver.com"
+git config --global user.email "DoyouknowUdong"
+git commit -m " messeage "
+git log
+git push origin master
+
+git add ./hello.py
+git rebase -i HEAD~4
